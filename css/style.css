@@ -428,7 +428,10 @@ a, a:link, a:visited {
       animation-play-state: paused; } }
   .social-proof__logos-slide {
     display: inline-block;
-    animation: 40s slide infinite linear; }
+    animation: 35s slide infinite linear; }
+    @media only screen and (max-width: 600px) {
+      .social-proof__logos-slide {
+        animation: 25s slide infinite linear; } }
     .social-proof__logos-slide img {
       vertical-align: middle;
       object-fit: contain;
@@ -439,6 +442,9 @@ a, a:link, a:visited {
       @media only screen and (max-width: 900px) {
         .social-proof__logos-slide img {
           margin: 0 20px; } }
+      @media only screen and (max-width: 600px) {
+        .social-proof__logos-slide img {
+          margin: 0 10px; } }
   .social-proof__logos .logo__pictoric {
     max-width: 77px; }
     @media only screen and (max-width: 1200px) {
