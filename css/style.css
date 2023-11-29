@@ -423,8 +423,9 @@ a, a:link, a:visited {
   @media only screen and (max-width: 600px) {
     .social-proof__logos {
       height: 100px; } }
-  .social-proof__logos:hover .social-proof__logos-slide {
-    animation-play-state: paused; }
+  @media (hover: hover) {
+    .social-proof__logos:hover .social-proof__logos-slide {
+      animation-play-state: paused; } }
   .social-proof__logos-slide {
     display: inline-block;
     animation: 40s slide infinite linear; }
