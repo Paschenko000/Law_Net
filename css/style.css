@@ -431,7 +431,7 @@ a, a:link, a:visited {
     animation: 35s slide infinite linear; }
     @media only screen and (max-width: 600px) {
       .social-proof__logos-slide {
-        animation: 25s slide infinite linear; } }
+        animation: 15s slide infinite linear; } }
     .social-proof__logos-slide img {
       vertical-align: middle;
       object-fit: contain;
