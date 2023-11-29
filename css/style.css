@@ -517,11 +517,11 @@ a, a:link, a:visited {
 .social-proof .response__container {
   overflow-x: auto;
   margin: 0 auto;
-  padding: 0 30px 20px;
+  padding: 0 40px 20px;
   width: 100%;
-  max-width: 1452px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: flex-start;
+  gap: 40px; }
   @media only screen and (max-width: 1200px) {
     .social-proof .response__container {
       max-width: unset;
