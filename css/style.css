@@ -517,7 +517,7 @@ a, a:link, a:visited {
 .social-proof .response__container {
   overflow-x: auto;
   margin: 0 auto;
-  padding: 0 40px 20px;
+  padding: 0 40px 35px;
   width: 100%;
   display: flex;
   justify-content: flex-start;
